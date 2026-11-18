@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="container-calculadora">
+        <input type="text" id="tela" disabled placeholder="0">
+        
+        <div class="botoes">
+            <!-- NOVA Linha 1: Mais operações -->
+            <button class="btn op" onclick="porcentagem()">%</button>
+            <button class="btn op" onclick="quadrado()">x²</button>
+            <button class="btn op" onclick="raizCubica()">³√</button>
+            <button class="btn op" onclick="limpar()">C</button>
+
+            <!-- Linha 2 -->
+            <button class="btn op" onclick="raiz()">√</button>
+            <button class="btn op" onclick="add('**')">xʸ</button>
+            <button class="btn op" onclick="add('/')">÷</button>
+            <button class="btn op" onclick="add('*')">×</button>
+
+            <!-- Linha 3 -->
+            <button class="btn num" onclick="add(7)">7</button>
+            <button class="btn num" onclick="add(8)">8</button>
+            <button class="btn num" onclick="add(9)">9</button>
+            <button class="btn op" onclick="add('-')">-</button>
+
+            <!-- Linha 4 -->
+            <button class="btn num" onclick="add(4)">4</button>
+            <button class="btn num" onclick="add(5)">5</button>
+            <button class="btn num" onclick="add(6)">6</button>
+            <button class="btn op" onclick="add('+')">+</button>
+
+            <!-- Linha 5 -->
+            <button class="btn num" onclick="add(1)">1</button>
+            <button class="btn num" onclick="add(2)">2</button>
+            <button class="btn num" onclick="add(3)">3</button>
+            <button class="btn igual" onclick="calcular()">=</button>
+            
+            <!-- Linha 6 -->
+            <button class="btn especial" onclick="exp()">SCI</button>
+            <button class="btn num" onclick="add(0)">0</button>
+            <button class="btn num" onclick="add('.')">.</button>
+            <!-- Removi o botão igual duplicado daqui para o grid ficar perfeito -->
+            <!-- Você pode colocar outro recurso no lugar no futuro, deixei um espaço vazio visual com uma classe invisível ou apenas estiquei o zero (requer mais css), mas pra simplificar, vamos colocar o Pi -->
+            <button class="btn especial" onclick="add(Math.PI)">π</button>
+        </div>
+    </div>
+</body>
+</html>
