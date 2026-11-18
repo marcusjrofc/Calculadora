@@ -1,41 +1,43 @@
-Calculadora Web 🧮
+# Calculadora Web 🧮
+
+🔗 **Acesse o projeto online:** [https://marcusjrofc.github.io/Calculadora/](https://marcusjrofc.github.io/Calculadora/)
 
 Uma calculadora funcional e responsiva construída com HTML, CSS e JavaScript. Este projeto foi desenvolvido para aprimorar conhecimentos em lógica de programação e estruturação de layouts modernos.
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-Operações Básicas: Soma, subtração, multiplicação e divisão.
+* **Operações Básicas:** Soma, subtração, multiplicação e divisão.
 
-Operações Avançadas:
+* **Operações Avançadas:**
 
-Raiz Quadrada (√) e Raiz Cúbica (³√)
+  * Raiz Quadrada (√) e Raiz Cúbica (³√)
 
-Potenciação (x² e xʸ)
+  * Potenciação (x² e xʸ)
 
-Cálculo de Porcentagem (%) corrigido para o uso real.
+  * Cálculo de Porcentagem (%) corrigido para o uso real.
 
-Notação Científica (botão SCI / ×10ⁿ).
+  * Notação Científica (botão SCI / ×10ⁿ).
 
-Pi (π).
+  * Pi (π).
 
-Design Responsivo: A interface se adapta perfeitamente a telas de computadores e smartphones, aumentando a área de toque em dispositivos móveis.
+* **Design Responsivo:** A interface se adapta perfeitamente a telas de computadores e smartphones, aumentando a área de toque em dispositivos móveis.
 
-🛠️ Tecnologias e Processo de Desenvolvimento
+## 🛠️ Tecnologias e Processo de Desenvolvimento
 
-Este projeto foi construído utilizando os fundamentos da web: HTML, CSS e JavaScript.
+Este projeto foi construído utilizando os fundamentos da web: **HTML**, **CSS** e **JavaScript**.
 
-Lógica e JavaScript: A lógica do aplicativo é baseada em funções enxutas e diretas. Para o funcionamento do núcleo da calculadora, pesquisei e implementei a função nativa eval() do JavaScript. Essa foi uma grande descoberta no processo, pois o eval() permite capturar toda a expressão matemática digitada na tela (uma string) e resolvê-la automaticamente, sem a necessidade de criar um algoritmo complexo do zero para separar números e operadores. As demais fórmulas (como Math.sqrt e Math.cbrt) foram implementadas após pesquisa e estudo.
+* **Lógica e JavaScript:** A lógica do aplicativo é baseada em funções enxutas e diretas. Para o funcionamento do núcleo da calculadora, pesquisei e implementei a função nativa **`eval()`** do JavaScript. Essa foi uma grande descoberta no processo, pois o `eval()` permite capturar toda a expressão matemática digitada na tela (uma *string*) e resolvê-la automaticamente, sem a necessidade de criar um algoritmo complexo do zero para separar números e operadores. As demais fórmulas (como `Math.sqrt` e `Math.cbrt`) foram implementadas após pesquisa e estudo.
 
-Estrutura (HTML): Estruturação base feita manualmente, organizando o visor e o grid de botões.
+* **Estrutura (HTML):** Estruturação base feita manualmente, organizando o visor e o grid de botões.
 
-Design (CSS): O visual, as cores, os efeitos 3D de clique e a responsividade (uso de Grid Layout e Media Queries) foram desenvolvidos com o auxílio da IA (Gemini Pro), acelerando a construção de uma interface moderna e bonita.
+* **Design (CSS):** O visual, as cores, os efeitos 3D de clique e a responsividade (uso de Grid Layout e Media Queries) foram desenvolvidos com o auxílio da IA (Gemini Pro), acelerando a construção de uma interface moderna e bonita.
 
-💡 Aprendizados
+## 💡 Aprendizados
 
-Uso prático do método eval() para processamento de strings matemáticas.
+* Uso prático do método `eval()` para processamento de strings matemáticas.
 
-Manipulação do DOM (Document Object Model) para atualizar o visor da calculadora.
+* Manipulação do DOM (Document Object Model) para atualizar o visor da calculadora.
 
-Uso do método .split() para lidar com cálculos de porcentagem no formato humano (ex: 100 - 25%).
+* Uso do método `.split()` para lidar com cálculos de porcentagem no formato humano (ex: `100 - 25%`).
 
-Aplicação de CSS Grid para alinhamento perfeito de teclados numéricos.
+* Aplicação de CSS Grid para alinhamento perfeito de teclados numéricos.
