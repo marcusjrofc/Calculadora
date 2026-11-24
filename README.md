@@ -1,6 +1,6 @@
 # Calculadora Web 🧮
 
-🔗 **Acesse o projeto online:** [https://marcusjrofc.github.io/Calculadora/](https://marcusjrofc.github.io/Calculadora/)
+🔗 **Acesse o projeto online:** [https://calculadora-snowy-psi.vercel.app/](https://calculadora-snowy-psi.vercel.app/)
 
 Uma calculadora funcional e responsiva construída com HTML, CSS e JavaScript. Este projeto foi desenvolvido para aprimorar conhecimentos em lógica de programação e estruturação de layouts modernos.
 
